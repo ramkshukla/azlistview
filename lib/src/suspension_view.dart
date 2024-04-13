@@ -6,9 +6,9 @@ import 'az_common.dart';
 const double kSusItemHeight = 40;
 
 /// SuspensionView.
-class SuspensionView extends StatefulWidget {
-  SuspensionView({
-    Key? key,
+//class SuspensionView extends StatefulWidget {
+  //SuspensionView({
+    //Key? key,
     // required this.data,
     // required this.itemCount,
     // required this.itemBuilder,
@@ -19,7 +19,7 @@ class SuspensionView extends StatefulWidget {
     // this.susPosition,
     // this.physics,
     // this.padding,
-  }) : super(key: key);
+  //}) : super(key: key);
 
   /// Suspension data.
   // final List<ISuspensionBean> data;
@@ -57,30 +57,30 @@ class SuspensionView extends StatefulWidget {
   // /// The amount of space by which to inset the children.
   // final EdgeInsets? padding;
 
-  @override
-  _SuspensionViewState createState() => _SuspensionViewState();
-}
+  // @override
+  // _SuspensionViewState createState() => _SuspensionViewState();
+//}
 
-class _SuspensionViewState extends State<SuspensionView> {
-  /// Controller to scroll or jump to a particular item.
-  late ItemScrollController itemScrollController;
+// class _SuspensionViewState extends State<SuspensionView> {
+//   /// Controller to scroll or jump to a particular item.
+//   late ItemScrollController itemScrollController;
 
-  /// Listener that reports the position of items when the list is scrolled.
-  late ItemPositionsListener itemPositionsListener;
+//   /// Listener that reports the position of items when the list is scrolled.
+//   late ItemPositionsListener itemPositionsListener;
 
-  @override
-  void initState() {
-    super.initState();
-    // itemScrollController =
-    //     widget.itemScrollController ?? ItemScrollController();
-    // itemPositionsListener =
-    //     widget.itemPositionsListener ?? ItemPositionsListener.create();
-  }
+//   @override
+//   void initState() {
+//     super.initState();
+//     // itemScrollController =
+//     //     widget.itemScrollController ?? ItemScrollController();
+//     // itemPositionsListener =
+//     //     widget.itemPositionsListener ?? ItemPositionsListener.create();
+//   }
 
-  @override
-  void dispose() {
-    super.dispose();
-  }
+//   @override
+//   void dispose() {
+//     super.dispose();
+//   }
 
   // /// build sus widget.
   // Widget _buildSusWidget(BuildContext context) {
@@ -144,23 +144,23 @@ class _SuspensionViewState extends State<SuspensionView> {
   //   );
   // }
 
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: <Widget>[
-        Text("Hello Ram This is AzList Your Modified Data")
-        // widget.itemCount == 0
-        //     ? Container()
-        //     : ScrollablePositionedList.builder(
-        //         itemCount: widget.itemCount,
-        //         itemBuilder: (context, index) => _buildItem(context, index),
-        //         itemScrollController: itemScrollController,
-        //         itemPositionsListener: itemPositionsListener,
-        //         physics: widget.physics,
-        //         padding: widget.padding,
-        //       ),
-        // _buildSusWidget(context),
-      ],
-    );
-  }
-}
+  // @override
+  // Widget build(BuildContext context) {
+  //   return Column(
+  //     children: <Widget>[
+  //       Text("Hello Ram This is AzList Your Modified Data")
+  //       // widget.itemCount == 0
+  //       //     ? Container()
+  //       //     : ScrollablePositionedList.builder(
+  //       //         itemCount: widget.itemCount,
+  //       //         itemBuilder: (context, index) => _buildItem(context, index),
+  //       //         itemScrollController: itemScrollController,
+  //       //         itemPositionsListener: itemPositionsListener,
+  //       //         physics: widget.physics,
+  //       //         padding: widget.padding,
+  //       //       ),
+  //       // _buildSusWidget(context),
+  //     ],
+  //   );
+  // }
+// }
